@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpeedHack", "SpeedHack\SpeedHack.vcxproj", "{291FD03D-83B2-4FEF-8ADA-7DF27F301FE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86E6C1AE-9330-4BCB-98F8-A379C2A0A62B} = {86E6C1AE-9330-4BCB-98F8-A379C2A0A62B}
+	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Detours", "Detours_4.0.1\Detours 4.0.1\src\Detours.vcxproj", "{86E6C1AE-9330-4BCB-98F8-A379C2A0A62B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Detours", "Detours_4.0.1\src\Detours.vcxproj", "{86E6C1AE-9330-4BCB-98F8-A379C2A0A62B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
