@@ -13,7 +13,9 @@
 Клавиши управления: 
 
 VK_HOME(Кнопка Home с правой стороны клавиатуры) - включает замедление, таким образом я уворачивался от стрел в игре Mordhau
+
 VK_UP(Стрелка вверх) - устанавливает скорость игры x20 раз быстрее
+
 VK_DOWN(Стрелка вниз) - устанавливает нормальную скорость игры (x1)
 
 Все эти значения можно менять в методе KeysThread. Удачного пользования)
@@ -29,7 +31,9 @@ It is very easy to use. We collect the project through Visual Studio 2019 and th
 Control keys:
 
 VK_HOME (Home button on the right side of the keyboard) - turns on slowdown, so I dodged arrows in Mordhau
+
 VK_UP (Arrow Up) - Sets the game speed x20 times faster
+
 VK_DOWN (Arrow down) - sets the normal speed of the game (x1)
 
 All these values can be changed in the KeysThread method. Successful use)
